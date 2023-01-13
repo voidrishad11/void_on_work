@@ -25,8 +25,7 @@ void main ()
     else if (discriminant==0)
     {
         x1=(-b/(2*a));
-        x2=(-b/(2*a));
-        printf("\n\nThe Value of root_1\t:\t%.3f\nThe Value of root_2\t:\t%.3f\n\n",x1,x2); 
+        printf("\n\nThe Value of root_1\t:\t%.3f\nThe Value of root_2\t:\t%.3f\n\n",x1,x1); 
     }
 
     //for unreal roots
