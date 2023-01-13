@@ -34,7 +34,8 @@ void main ()
     else
     {
         r=((-b)/(2*a));
-        i = sqrt(-discriminant) / (2 * a);
+        i = sqrt(-discriminant) / (2 * a);  
+        /* (-) is used because outcome of the discriminant will be negative and it has to be converted to positive in order to execute square root on it */
         printf("\n\nThe Value of root_1\t:\t%.3f+%.3fi\nThe Value of root_2\t:\t%.3f-%.3fi\n\n", r,i,r,i);
     }
 }
