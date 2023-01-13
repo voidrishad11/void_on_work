@@ -13,6 +13,9 @@ void main ()
     printf("Enter the value of c\t:\t"); 
     scanf("%f",&c);
     discriminant =(b*b-4*a*c);
+
+    //for real roots
+
     if(discriminant>0)
     {
         x1=(-b+ sqrt(discriminant))/(2*a); 
@@ -25,10 +28,13 @@ void main ()
         x2=(-b/(2*a));
         printf("\n\nThe Value of root_1\t:\t%.3f\nThe Value of root_2\t:\t%.3f\n\n",x1,x2); 
     }
+
+    //for unreal roots
+
     else
     {
         r=((-b)/(2*a));
-        i=sqrt(discriminant);
-        printf("\n\nThe Roots are imaginary.\nReal part\t:\t%.3f\nImaginary part\t:\t%.3f\n",r,i);
+        i = sqrt(-discriminant) / (2 * a);
+        printf("\n\nThe Value of root_1\t:\t%.3f+%.3fi\nThe Value of root_2\t:\t%.3f-%.3fi\n\n", r,i,r,i);
     }
 }
