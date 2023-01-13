@@ -3,7 +3,6 @@ circumference and area. Use the constant value 3.14159 for π. Perform each of t
 inside the printf statement(s) and use the conversion specifier %f.*/
 
 #include<stdio.h>
-#include<math.h>
 #define PI 3.14159
 
 void main()

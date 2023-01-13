@@ -14,6 +14,6 @@ void main()
     //c. Using four printf statements.
     printf("%d",1);
     printf("%d",2);
-    printf("%d",3);
-    printf("%d\n",4);
+    printf("3");
+    printf("4\n");
 }
